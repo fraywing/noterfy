@@ -1,0 +1,88 @@
+.noterfy-el{
+    position: absolute;
+    padding: 3px 3px 3px 3px;
+     border-radius: 3px;
+     display: none;
+     text-align: center;
+   margin-top: -30px;
+   box-shadow: 0 0 4px 0 rgba(2,2,2,0.3), 0 1px 1px 0 rgba(2,2,2,0.4), inset 0 1px 1px 0 rgba(255,255,255,0.3), inset 0 0 2px 0 rgba(2,2,2,0.3);
+}
+.noterfy-icon{
+    padding: 0px 3px 0px 3px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 3px;
+}
+.noterfy-hold{
+    display: inline-block;
+}
+.noterUp{
+
+}
+.happy{
+    background: rgba(120, 194, 71, 0.9);
+    color:white;
+    text-shadow: 0 -1px 0 rgba(2,2,2,0.2);
+    border:1px solid rgba(255,255,255,0.7);
+    font-size: 0.9em;
+    font-family: Tahoma;
+    
+}
+.happy .noterfy-icon{
+    font-size: 1.1em;
+    background: rgba(151, 207, 114, 0.8);
+    text-shadow: 0 0 5px rgba(203, 231, 184, 0.8),0 1px 0 rgba(2,2,2,0.2);
+    border-radius: 6px;
+    border:1px solid rgba(255,255,255,0.5);
+}
+
+.utoh{
+    background: rgba(245, 77, 20, 0.9);
+    color:white;
+    text-shadow: 0 -1px 0 rgba(2,2,2,0.2);
+    border:1px solid rgba(255,255,255,0.7);
+    font-size: 0.9em;
+    font-family: Tahoma;
+
+}
+.utoh .noterfy-icon{
+    font-size: 1.1em;
+    background: rgba(248, 123, 82, 0.9);
+    text-shadow: 0 0 5px rgba(235, 206, 180, 0.8),0 1px 0 rgba(2,2,2,0.2);
+    border-radius: 6px;
+    border:1px solid rgba(255,255,255,0.5);
+}
+
+.justsoyouknow{
+    background: rgba(34, 177, 232, 0.9);
+    color:white;
+    text-shadow: 0 -1px 0 rgba(2,2,2,0.2);
+    border:1px solid rgba(255,255,255,0.7);
+    font-size: 0.9em;
+    font-family: Tahoma;
+
+}
+.justsoyouknow .noterfy-icon{
+    font-size: 1.1em;
+    background: rgba(80, 193, 237, 0.9);
+    text-shadow: 0 0 5px rgba(180, 222, 235, 0.8),0 1px 0 rgba(2,2,2,0.2);
+    border-radius: 6px;
+    border:1px solid rgba(255,255,255,0.5);
+}
+
+.allgood{
+    background: rgba(242, 199, 23, 0.9);
+    color:white;
+    text-shadow: 0 -1px 0 rgba(2,2,2,0.2);
+    border:1px solid rgba(255,255,255,0.7);
+    font-size: 0.9em;
+    font-family: Tahoma;
+ 
+}
+.allgood .noterfy-icon{
+    font-size: 1.1em;
+    background: rgba(245, 214, 88, 0.9);
+    text-shadow: 0 0 5px rgba(235, 238, 176, 0.8),0 1px 0 rgba(2,2,2,0.2);
+    border-radius: 6px;
+    border:1px solid rgba(255,255,255,0.5);
+}

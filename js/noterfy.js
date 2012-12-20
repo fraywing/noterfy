@@ -20,18 +20,22 @@
             }
               $('body').find('.noterfy-el').remove();
               if($(el).parent().attr('class') != "noterfy-hold"){
-                console.log('bop');
                  $(el).wrap("<span class='noterfy-hold' />");
               }
-              
-                 $(el).parent().append("<div class='noterfy-el "+defaults.type+"'>\
-                         <span class='noterfy-icon'>"+defaults.icon+"</span>"+defaults.message+"\
+              var parent = $(el).parent();
+                 parent.prepend("<div class='noterfy-el "+defaults.type+"'>\
+                         <span class='noterfy-icon'>"+defaults.icon+"</span><span class='noterfy-msg'>"+defaults.message+"</span>\
                          </div>");
              if(width !== undefined){
-                 $(el).parent().find('.noterfy-el').css({'width' : width}); 
+                var w = Number(width.split('px')[0]);
+                if(w < 250 && parent.find('.noterfy-msg').html().length > 15){
+                parent.find('.noterfy-icon').css({"display" : "block"});
+                parent.find('.noterfy-msg').css({"font-size" : "0.8em"});
+                }
+                 parent.find('.noterfy-el').css({'width' : width}); 
              }
               var tim;
-              $(el).parent().find('.noterfy-el').fadeIn(defaults.time, function(){
+              parent.find('.noterfy-el').fadeIn(defaults.time, function(){
                 var sel = $(this);
                      tim = setTimeout(function(){
                               sel.fadeOut(defaults.time, function(){
